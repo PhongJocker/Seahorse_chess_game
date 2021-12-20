@@ -97,4 +97,4 @@ async def on_command_error(ctx, error):
     if isinstance(error, commands.CommandNotFound):
         await ctx.send(f'Không có lệnh "{ctx.message.content}" !\nDùng !help để xem tất cả lệnh hiện có.')
 
-client.run("NjY0ODMzMDYzOTY0MTE0OTU0.Xhc0Cg.Dp9kKTLiMrWscbrr-VtvE5kn72w")
+client.run("token-bot")
